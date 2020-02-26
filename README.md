@@ -1,4 +1,4 @@
-# indihome_checker
+# indihome_checker by scode gantengggggggggggggggggggggggggggg
 
 TUTORIALNYA
 
